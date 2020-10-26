@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <div class="master">
+        <input class="calcDisplay" type="text" name="" id="" disabled>
+        <table>
+            <tr>
+                <td colspan="2"><input class="botao botaoClear" type="button" value="AC"></td>
+                <td><input class="botao botaoOp" type="button" value="/"></td>
+                <td><input class="botao botaoOp" type="button" value="*"></td>
+            </tr>
+        
+            <tr>
+                <td><input class="botao botaoNum" type="button" value="7"></td>
+                <td><input class="botao botaoNum" type="button" value="8"></td>
+                <td><input class="botao botaoNum" type="button" value="9"></td>
+                <td><input class="botao botaoOp" type="button" value="+"></td>
+            </tr>
+
+            <tr>
+                <td><input class="botao botaoNum" type="button" value="4"></td>
+                <td><input class="botao botaoNum" type="button" value="5"></td>
+                <td><input class="botao botaoNum" type="button" value="6"></td>
+                <td><input class="botao botaoOp" type="button" value="-"></td>
+            </tr>
+
+            <tr>
+                <td><input class="botao botaoNum" type="button" value="1"></td>
+                <td><input class="botao botaoNum" type="button" value="2"></td>
+                <td><input class="botao botaoNum" type="button" value="3"></td>
+                <td rowspan="2"><input class="botao botaoRes" type="button" value="="></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input class="botao botaoNum btnExp" type="button" value="0"></td>
+                <td><input class="botao btnComma" type="button" value=","></td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
