@@ -15,6 +15,7 @@ body {
     height: 305px;
     border-style: solid;
     border-color: #701ac0;
+    background-color: #561493;
     border-width: 10px;
     border-radius: 3px;
     position: absolute;
@@ -23,7 +24,7 @@ body {
     left: 0; 
     right: 0;
     margin: auto; 
- 
+    display: none;
    
 }
 
@@ -63,7 +64,73 @@ table{
     background-color: #8a2be2;
 }
 
+.entra {
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
 
+.abrir {
+	background-color:#8a2be2;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#84e22b;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.abrir:hover {
+	background-color:#701ac0;
+}
+.abrir:active {
+	position:relative;
+	top:1px;
+}
 
+#btnFecha {
+	box-shadow: 0px 1px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f02b2b 100%);
+	background-color:#c62d1f;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #810e05;
+    display: none;
+}
+#btnFecha:hover {
+	background:linear-gradient(to bottom, #f02b2b 5%, #c62d1f 100%);
+	background-color:#f02b2b;
+}
+#btnFecha:active {
+	position:relative;
+	top:1px;
+}
+
+li {
+    color: #83e22b;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0 0 25px;
+    list-style: lower-roman;
+}
+
+h1 {
+    color: #83e22b;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
 
 
